@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>mousemove</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            padding: 0;
+            margin: 0;
+            font-size: 2em;
+        }
+    </style>
+<body>
+<p></p>
+<script>
+// Для удобства и скрипт тоже тут
+let par = document.querySelector('p')
+document.addEventListener('mousemove', function() { par.innerHTML += '0 ' })
+</script>
+</body>
+</html>
